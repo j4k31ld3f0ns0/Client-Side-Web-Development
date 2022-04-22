@@ -1,0 +1,76 @@
+<!-- buttons to display events -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Project Starter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- 
+    Don't add stylesheets/main.css or javascripts/main.js manually. 
+    They will be added automatically by Webpack.
+  -->
+</head>
+
+<body class="bg-dark text-light">
+  <div class="container-fluid bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Jake's Javascript</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="arrays.html">Arrays</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="functions.html">Functions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="objects.html">Objects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid text-light py-5 d-none d-lg-flex">
+      <div class="container">
+        <h1 class="display-4">JavaScript Features</h1>
+        <p class="lead">Hi, I'm Jake, and this is my site about some of the various features of the JavaScript
+          programming language.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="container-fluid">
+      <div class="row m3">
+          <h1>Events</h1>
+      </div>
+      <div class="row justify-content-center">
+        <p>Event-based programming is another fairly straightfoward concept with a lot of utility, especially in a web-development setting, which JavaScript is known for.<br>
+        Essentially the idea is that there are predefined uses or interactions for a given application, and upon receiving an input, the program will react with an <em>event</em>, so you can visualize it a lot like a bear trap, it doesn't really do anything until you step in it. (Haha)</p>
+        <img src="images/tomNJerryBearTrap.jpg" alt="Bear Trap Image" style="width: 40vw;">
+      </div>
+      <div class="row m-4 p-4">
+        <button type="button" class="btn btn-danger" id="beartrap">This is a beartrap.</button>
+        <audio>
+            <source src="http://soundfxcenter.com/television/tom-and-jerry/8d82b5_Tom_Laugh_Sound_FX.mp3" type="audio/mpeg">
+        </audio>
+        <a href="functions.html" class="btn btn-primary btn-lg my-3" role="button" aria-pressed="true">I never liked beartraps, next!</a>
+      </div>
+  </div>
+</body>
+
+</html>
